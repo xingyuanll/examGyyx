@@ -15,4 +15,14 @@ public class ExamTest {
 		int i1 = LengthOfLong.getMaxLength(s1);
 		System.out.println(i1);
 	}
+	/**
+	 * 空字符串测试
+	 * @throws Exception
+	 */
+	@Test
+	public void test2() throws Exception {
+		String s2 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+		int i2 = LengthOfLong.getMaxLength(s2);
+		System.out.println(i2);
+	}
 }

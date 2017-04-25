@@ -3,7 +3,7 @@ package com.dragon.exam;
 public class LengthOfLong {
 	public static int getMaxLength(String str){
 		int start = 0; //设置开始下标
-		int maxLength = 0; //设置最大长度
+		int maxLength = -1; //设置最大长度
 		int strLength = str.length(); //获取输入字符串长度
 		
 		for (int i = 1; i < strLength; i++) {
@@ -20,6 +20,6 @@ public class LengthOfLong {
 				}
 			}
 		}
-		return maxLength;
+		return maxLength==-1?strLength:maxLength;
 	}
 }
