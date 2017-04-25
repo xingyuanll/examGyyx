@@ -5,7 +5,10 @@ import org.junit.Test;
 import com.dragon.exam.LengthOfLong;
 
 public class ExamTest {
-
+	/**
+	 * 空字符串测试
+	 * @throws Exception
+	 */
 	@Test
 	public void test1() throws Exception {
 		String s1 = "";
