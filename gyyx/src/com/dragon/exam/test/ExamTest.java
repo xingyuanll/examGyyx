@@ -46,4 +46,15 @@ public class ExamTest {
 		int i2 = LengthOfLong.getMaxLength(s2);
 		System.out.println(i2);
 	}
+	/**
+	 * 乱序随机
+	 * @throws Exception
+	 */
+	@Test
+	public void test5() throws Exception {
+		String s2 = "kuewhsq<?mgbbuqcl>jjivswmdkqtbxixmvtrrbljptnsnfwzqfjmaf<adrrwsofsbcnuvqhffbsaqxwpqcac#$%&'()*+,-./:;<=>?@[\\]^_`";
+		int i2 = LengthOfLong.getMaxLength(s2);
+		System.out.println(i2);
+	}
+	
 }
