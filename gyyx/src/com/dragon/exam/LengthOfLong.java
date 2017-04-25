@@ -1,9 +1,6 @@
 package com.dragon.exam;
 
 public class LengthOfLong {
-	public static void main(String[] args) {
-		
-	}
 	public static int getMaxLength(String str){
 		int start = 0; //设置开始下标
 		int maxLength = 0; //设置最大长度
