@@ -35,4 +35,15 @@ public class ExamTest {
 		int i2 = LengthOfLong.getMaxLength(s2);
 		System.out.println(i2);
 	}
+	
+	/**
+	 * 有重复字符串测试+特殊字符
+	 * @throws Exception
+	 */
+	@Test
+	public void test4() throws Exception {
+		String s2 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+		int i2 = LengthOfLong.getMaxLength(s2);
+		System.out.println(i2);
+	}
 }
